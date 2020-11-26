@@ -1,0 +1,20 @@
+1 paso de handshake
+
+5254 3030 30   30   30    31    30   31        xxxx
+in   out  seq  ack  ackF  synF  FYN  windosS   check      52413030303030313031xxxx
+
+
+
+2 paso handshake
+
+
+xxxx 5254 30   30   31    31    30   31        xxxx
+in   out  seq  ack  ackF  synF  FYN  windosS   check      xxxx5241303031313031xxxx
+
+
+
+3 paso handshake
+
+
+5241 xxxx 31   30   31    30    30   31        xxxx
+in   out  seq  ack  ackF  synF  FYN  windosS   check
